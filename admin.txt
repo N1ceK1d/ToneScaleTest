@@ -1,0 +1,2 @@
+login: admin
+password: UEQ6Cr9y8
