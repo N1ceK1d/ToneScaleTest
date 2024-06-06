@@ -77,6 +77,9 @@
                             $answers = $conn->query("SELECT * FROM UsersResults WHERE user_id = ".$row['user_id']." LIMIT 1");
                             foreach($answers as $answer):?>
                             <table class="table table-bordered ">
+                                <caption>
+                                Любой человек должен быть предупрежден, что не стоит полагаться на результат теста на 100%. Существует возможность неправильного заполнения и что какие-либо данные теста окажутся неправильными и следует приходить к заключению в первую очередь из собственных наблюдений.
+                                </caption>
                                 <thead>
                                     <tr>
                                         <td class='text-center'><b>Уровень тона</b></td>
