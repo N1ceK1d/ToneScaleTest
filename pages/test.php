@@ -25,11 +25,11 @@
                     <div class="answers row">
                         <div class="answer-item">
                             <input type="radio" class='check_input' name="answer[<?php echo $question['id'] ?>]" value='1'>
-                            <label for="">Да (1)</label>
+                            <label for="">Да</label>
                         </div>
                         <div class="answer-item">
                             <input type="radio" class='check_input' name="answer[<?php echo $question['id'] ?>]" value='0'>
-                            <label for="">Нет (0)</label>
+                            <label for="">Нет</label>
                         </div>
                     </div>
                 </div>

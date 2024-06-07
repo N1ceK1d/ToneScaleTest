@@ -14,7 +14,7 @@ function moreYes($list)
             $no++;
         }
     }
-    if($yes > $no) {
+    if($yes >= $no) {
         return 1;
     } else {
         return 0;
